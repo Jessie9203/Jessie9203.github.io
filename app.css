@@ -1,0 +1,22 @@
+
+.redfont{
+	color: red;
+}
+
+#header{
+	color: yellow;
+}
+
+#content{
+	color: blue;
+	font-size: 40px;
+}
+
+h1.redfont {
+	font-size: 60px;
+}
+
+.blackfont{
+	color: black;
+	font-size: 30px;
+}
