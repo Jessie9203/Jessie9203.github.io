@@ -2,29 +2,45 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Euterpe</title>
-<link rel="stylesheet" type="text/css" href="app.css">
+	<title>Calculator</title>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
 </head>
 <body>
-<h1 class="redfont">Hello everyone!!</h1>
+	<h2 id="title">Calculator</h2>
 
+	<p id="oper">&nbsp;</p>
+	<p id="ans">0</p>
 
-<div id="content">
-	<h3>My name is Jessie Chien</h3>
-	<p>I formed an A Cappella group with several friends</p>
-	<p>Our group name is Euterpe</p>
-	<p>We will attend a singing competition this Saturday which is held in National Taipei University</p>
-	<p>Wish us good luck!</p>
-	<br>
-	<span><h3 class="blackfont">Group members</h3></span>
-		<ul class="blackfont">
-			<li>Soprano:Andrea</li>
-			<li>Alto:Jessie</li>
-			<li>Tenor:Tim</li>
-			<li>Bass:Sean</li>
-			<li>B-box:Henry</li>
-		</ul>
-	<img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10730946_726027800819893_8765196001423468235_n.jpg?oh=0fc21c799c7dae5bcd224509d4b540c5&oe=5571C876&__gda__=1434605006_8da46b19bff673f95deeb534cd88b626">
-</div>
+	<div>
+		<button id="btn7" class="2ndline">7</button>
+		<button id="btn8" class="2ndline">8</button>
+		<button id="btn9" class="2ndline">9</button>
+		<button id="divide" class="2ndline">÷</button>
+	</div>
+
+	<div>
+		<button id="btn4" class="3rdline">4</button>
+		<button id="btn5" class="3rdline">5</button>
+		<button id="btn6" class="3rdline">6</button>
+		<button id="multiply" class="3rdline">x</button>
+	</div>
+
+	<div>
+		<button id="btn1" class="4thline">1</button>
+		<button id="btn2" class="4thline">2</button>
+		<button id="btn3" class="4thline">3</button>
+		<button id="minus" class="4thline">-</button>
+	</div>
+
+	<div>
+		<button id="clear" class="5thline">C</button>
+		<button id="btn0" class="5thline">0</button>
+		<button id="equal" class="5thline">=</button>
+		<button id="plus" class="5thline">+</button>
+	</div>
+	</table>
+
 </body>
 </html>
